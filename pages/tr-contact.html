@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+</head>
+<body id="contact_page">
+    <div class="navbar">
+        <div id="logo">
+            <img src="images/logo.png">
+        </div>
+        <div>
+            <ul class="navbar_list">
+                <li><a class="navbar_btn" href="../index.html">Ana Sayfa</a></li>
+                <li><a class="navbar_btn" href="tr-about.html">Hakkında</a></li>
+                <li><a class="navbar_btn" href="#">İletişim</a></li>
+                <li id="theme"><a class="navbar_btn" onclick="changeTheme()">Temayı Değiştir</a></li>
+                <li><a href="en-index.html">Tr/En</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact_form">
+        <div>
+            <div id="head">Bizimle İletişime Geçin</div>
+            <br>
+            <br>
+            <form action="">
+                <input class="input_box" type="text" placeholder="Ad Soyad" required>
+                <br>
+                <br>
+                <br>
+                <input class="input_box" type="email" placeholder="Eposta" required>
+                <br>
+                <br>
+                <br>
+                <textarea class="input_box" cols="30" rows="10" placeholder="Mesajınız" required></textarea>
+                <br>
+                <br>
+                <button type="submit" id="submit_btn">GÖNDER</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

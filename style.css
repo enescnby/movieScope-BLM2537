@@ -1,0 +1,190 @@
+#main_page{
+    background-color: black;
+    background-image: url(images/newbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;   /*Ögeler arası mesafeyi belirler.*/
+    padding: 0; /*Ögenin etrafında boşluk oluşturmak için kullanılır.(Dolgu)*/
+}
+
+#about_page{
+    margin: 0;
+    padding: 0;
+}
+
+#movie_page{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#contact_page{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex; /*Ögenin görüntülenme biçimini belirler.*/
+    justify-content: space-between; /*Ögelerin hizalanma biçimini düzenler.*/
+    align-items: center; /*Dikey hizalanmayı belirler.*/
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    background-image: url(images/bgcolorful.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar_list{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+#logo img{
+    max-width: 100px;
+}
+
+#head{
+    text-align: center; /*Bir metnin hizalanmasını belirler.*/
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.navbar_list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.navbar_list li a:hover{
+    /*
+    İmleç ile navigasyon ögelerinin üstüne gelindiğinde
+    arka plan renklerini beyaz yapan kısım
+    */
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.movies_in_theathre{
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: rgba(50, 50, 50, 0.4);
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row img{
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.movie:hover{
+    cursor: pointer;
+}
+
+#theme:hover{
+    cursor: pointer;
+}
+
+#about_box{
+    background-color: rgba(50, 50, 50, 0.4);
+    border-radius: 15px;
+    position: absolute; /*Konumlandırma tipini belirler.*/
+    top: 200px;
+    right: 140px;
+    left: 140px;
+    padding: 150px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    margin-top: 40%; /*Bir üsteki elemanla olan uzaklık*/
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer_logo{
+    width: 30px;
+    height: 30px;
+}
+
+.mov{
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.info{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.visual_container{
+    text-align: center;
+    align-items: center;
+}
+
+.info_container{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.trailer{
+    padding: 5px;
+}
+
+.contact_form{
+    text-align: center;
+    padding: 100px;
+}
+
+.input_box{
+    resize: none;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    width: 400px;
+    border-bottom:2px solid rgba(105,118,132,290);
+    border-top:none;
+    color:rgba(255,255,255,230);
+    padding-bottom:7px;
+}
+
+#submit_btn{
+    border-radius: 15px;
+    background-color: rgba(50, 50, 50, 0.4);
+    width: 70px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+#submit_btn:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}

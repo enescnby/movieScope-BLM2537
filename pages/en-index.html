@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+</head>
+<body id="main_page">
+    <div class="navbar">
+        <div id="logo">
+            <img src="images/logo.png">
+        </div>
+        <div>
+            <ul class="navbar_list">
+                <li><a class="navbar_btn" href="en-index.html">Main Page</a></li>
+                <li><a class="navbar_btn" href="en-about.html">About</a></li>
+                <li><a class="navbar_btn" href="#">Contact Us</a></li>
+                <li id="theme"><a class="navbar_btn" onclick="changeTheme()">Change Theme</a></li>
+                <li><a href="../index.html">Tr/En</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="head">Movies In Theathre</div>
+    <br>
+    <br>
+
+    <div class="movies_in_theathre">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col">
+                <a href="../movies/en-napoleon.html">
+                    <img class="movie" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" src="images/napolyon.jpg" title="Napolyon">
+                </a>
+            </div>
+            <div class="col">
+                <a href="../movies/en-afire.html">
+                    <img class="movie" src="images/kizilgokyuzu.jpg" title="Kızıl Gökyüzü" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                </a>
+            </div>
+            <div class="col">
+                <a href="../movies/en-becky.html">
+                    <img class="movie" src="images/becky.png" title="Becky'nin Gazabı" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col">
+                <a href="">
+                    <img class="movie" src="images/hunger_games.png" title="Açlık Oyunları: Kuşların ve Yılanların Şarkısı" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                </a>
+            </div>
+            <div class="col">
+                <a href="">
+                    <img class="movie" src="images/testere_x.png" title="Testere X" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                </a>
+            </div>
+            <div class="col">
+                <a href="">
+                    <img class="movie" src="images/the-marvels.png" title="The Marvels" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
